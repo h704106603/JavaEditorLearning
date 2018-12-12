@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean class="com.model.Boss" name="boss">
+        <property name="name" value="Shixiaodong"/>
+        <property name="age" value="22"/>
+        <property name="car" value="BMW,Black,200m/s,2000"/>
+    </bean>
+
+    <!--<
+    <bean class="org.springframework.beans.factory.config.CustomEditorConfigurer">
+        <property name="customEditors">
+            <map>
+                <entry key="com.model.Car" value="com.service.CarEditor"></entry>
+            </map>
+        </property>
+    </bean>-->
+
+</beans>
