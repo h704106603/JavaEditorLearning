@@ -20,7 +20,10 @@ public class MainController {
     private Boss boss;
 
     @Resource(name = "redisTemplate")
-    private SetOperations<String, Integer> sOps;
+    private SetOperations<String, Integer> setOperations;
+
+    @Resource(name = "redisTemplate")
+    private ValueOperations<String, Integer> valueOperations;
 
     @RequestMapping("/")
     @ResponseBody

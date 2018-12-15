@@ -9,13 +9,12 @@
         <property name="car" value="BMW,Black,200m/s,2000"/>
     </bean>
 
-    <!--<
     <bean class="org.springframework.beans.factory.config.CustomEditorConfigurer">
         <property name="customEditors">
             <map>
-                <entry key="com.model.Car" value="com.service.CarEditor"></entry>
+                <entry key="com.model.Car" value="com.service.CustomCarEditor"></entry>
             </map>
         </property>
-    </bean>-->
+    </bean>
 
 </beans>

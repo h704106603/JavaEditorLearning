@@ -4,7 +4,7 @@ import org.springframework.stereotype.Component;
 
 import java.beans.PropertyEditorSupport;
 
-public class CarEditor extends PropertyEditorSupport {
+public class Car1Editor extends PropertyEditorSupport {
     @Override
     public void setAsText(String text) throws IllegalArgumentException {
         if(text == null) {
