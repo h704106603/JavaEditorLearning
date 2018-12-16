@@ -1,2 +1,2 @@
 # JavaEditorLearning
-SpringBootTest学习Java编辑器使用
+学习Java编辑器使用，SpringBoot项目
